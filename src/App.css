@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #1B1B1B;
+  z-index: 0;
+}
+
+
+/* NAVBAR */
+nav{
+  padding: 2em 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  line-height: 0;
+  margin-left: 60rem;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+nav ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  font-size: 32px;
+}
+
+.curricl{
+  color: #FF001E;
+}
+
+nav ul li a:hover {
+  transition: 0.3s;
+}
+
+nav ul li a:after {
+  content: '';
+  position: absolute;
+  background-color: #ff001e;
+  height: 3px;
+  left: 0;
+  width: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+  transition: 0.3s;
+}
+
+
+/* TEXTO 1 */
+
+.texTm{
+  display: flex;
+  position: relative;
+  margin-left: 15rem;
+  margin-top: 15rem;
+  font-size: 25px;
+}
+
+h1{
+  color: #f3f3f3;
+}
+
+.corT{
+  color: #FF001E;
+}
+
+.hashT{
+  color: #FF001E;
+}
+
+.btn1{
+  display: flex;
+  margin-left: 26rem;
+  margin-top: 10rem;
+}
+
+.btn1 button{
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #f3f3f3;
+}
+
+.btn1 button:hover{
+  transition: 0.3s;
+  color: #FF001E;
+}
+
+
+
+/*  */
